@@ -1,0 +1,36 @@
+<div class="login-box">
+  <div class="text-center" style="color: rgb(43, 226, 144); padding: 20px auto;">
+    {{#if firstName}}
+    <div class="overlay-panel overlay-right">
+      <h1>Hello, {{firstName}}!!</h1>
+      <p>Welcome Back!</p>
+    </div>
+    
+    {{else}}
+    <div class="overlay-panel overlay-right">
+      <h1>Hello, Friend!</h1>
+      <p>Enter your personal details and start journey with us</p>
+      <button class="ghost" id="signUp" onclick="switches()">Sign Up</button>
+    </div>
+    {{/if}}
+  </div>
+  <form action="/signIn" method="POST">
+    <div class="user-box">
+      <input type="email" name="email" required="true" value="{{email}}" disabled>
+    </div>
+    <div class="user-box">
+      <input type="password" name="password" required="true" value="{{password}}" disabled>
+    </div>
+    <div class="text-end">
+      <button type="submit" class="btn custom-button">
+        <a href="/" class="text-decoration-none text-reset">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          back
+        </a>
+      </button>
+    </div>
+  </form>
+</div>
