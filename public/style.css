@@ -174,3 +174,18 @@ body {
     bottom: 100%;
   }
 }
+
+footer {
+  color: #03e9f4;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
