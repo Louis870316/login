@@ -5,8 +5,6 @@ A Login design web application for users that can use this website to log in the
 about the parties of front-end which refer to "Youns" (https://codepen.io/Youns_ezy54/pen/JjbdwZb) 
 ## Features
 - Users can create his/her account 
-- Plus, Users can connect Todo-list web that is my another project after he/she log in by his/her email and password 
-
 
 ### Technology
 - template engine -> Using template engine to covert files from html-like to html for browser
@@ -14,7 +12,7 @@ about the parties of front-end which refer to "Youns" (https://codepen.io/Youns_
 - MONGODB -> Using mongoose  help app.js connect to database
 
 ### RESTful 
-Compared to previous version, this version use the RESTful design pattern to reconstruction routes of app.js
+This version use the RESTful design pattern to reconstruction routes of app.js
 
 ## **install and running steps**
 
